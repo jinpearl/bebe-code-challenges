@@ -39,3 +39,20 @@ function solution(str){
   let rra = arr.reverse()
   return rra.join('')
 }
+
+//8 kyu: In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+
+//take in a number
+let num 
+
+//check if number < 0 or if it's 0; if it's number > 0 then, * 1
+return num < 0 ? num
+    : num > ? num*(-1) 
+    : num = 0 ? 0
+
+function makeNegative(num) {
+  return num > 0 ? num*-1 : num
+  
+}
+
+//8 kyu: 
