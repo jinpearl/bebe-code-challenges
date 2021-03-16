@@ -55,4 +55,12 @@ function makeNegative(num) {
   
 }
 
-//8 kyu: 
+//8 kyu: We need a function that can transform a number into a string. What ways of achieving this do you know?
+let num = 
+
+return num.toString
+
+function numberToString(num) {
+  return num.toString()
+}
+
