@@ -102,4 +102,13 @@ function removeChar(str){
   return newStr
 };
 
-//8 kyu:
+//8 kyu: Write a function called repeat_string which repeats the given string str exactly count times.
+
+
+let str
+let count
+// for loop
+let newString
+for(let i; i < count; i++) {
+  return newString + str
+}
