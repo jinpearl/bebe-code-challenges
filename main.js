@@ -74,3 +74,32 @@ function boolToWord( bool ){
   return bool ? "Yes" : "No"
 }
 
+//8 kyu: It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+//get string
+let str =
+//turn the string to arry
+let arr = str.split('')
+
+//take off index 0 
+arr.shift()
+
+//take off last index
+
+arr.pop('')
+//turn array to string
+let str = arr.join('')
+//return str
+
+return str
+
+function removeChar(str){
+  let arr = str.split('')
+  
+  arr.shift()
+  arr.pop()
+  let newStr = arr.join('')
+  return newStr
+};
+
+//8 kyu:
