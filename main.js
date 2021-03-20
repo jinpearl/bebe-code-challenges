@@ -112,3 +112,12 @@ let newString
 for(let i; i < count; i++) {
   return newString + str
 }
+
+//8 kyu: Write a function to split a string and convert it into an array of words. 
+
+let str "Hi Buddy I miss so much"
+
+function splitWords(str){
+  return str.split(" ")
+   
+}
